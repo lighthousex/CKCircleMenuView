@@ -17,7 +17,7 @@
 		1D17B1CE19B7081A007128C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D17B1CD19B7081A007128C9 /* ViewController.m */; };
 		1D17B1D019B7081A007128C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B1CF19B7081A007128C9 /* Images.xcassets */; };
 		1D17B33219B749F7007128C9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1D17B33119B749F7007128C9 /* Podfile */; };
-		BBEB6341CE0142B8945E26C6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6C9B7E8C3FA46668BA7E447 /* libPods.a */; };
+		F517C04914CC9BE8418F7F89 /* libPods-CircleMenuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B73FC04E9C84F0076335EB8 /* libPods-CircleMenuDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		1D17B1CF19B7081A007128C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1D17B1D619B7081A007128C9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1D17B33119B749F7007128C9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1ED3C349910B3862AE5887DF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		A6C9B7E8C3FA46668BA7E447 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D61E3D2CD1A6464B4C50F697 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		54215B4CD90D1FE295D52846 /* Pods-CircleMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleMenuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircleMenuDemo/Pods-CircleMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7B73FC04E9C84F0076335EB8 /* libPods-CircleMenuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CircleMenuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A406B9A800FE098736D439E0 /* Pods-CircleMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircleMenuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircleMenuDemo/Pods-CircleMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 				1D17B1B719B7081A007128C9 /* CoreGraphics.framework in Frameworks */,
 				1D17B1B919B7081A007128C9 /* UIKit.framework in Frameworks */,
 				1D17B1B519B7081A007128C9 /* Foundation.framework in Frameworks */,
-				BBEB6341CE0142B8945E26C6 /* libPods.a in Frameworks */,
+				F517C04914CC9BE8418F7F89 /* libPods-CircleMenuDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 				1D17B1BA19B7081A007128C9 /* CircleMenuDemo */,
 				1D17B1B319B7081A007128C9 /* Frameworks */,
 				1D17B1B219B7081A007128C9 /* Products */,
-				F29EF547E3AC5AD09F92A081 /* Pods */,
+				697C4F5AC4141A710EB409E7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,7 +83,7 @@
 				1D17B1B619B7081A007128C9 /* CoreGraphics.framework */,
 				1D17B1B819B7081A007128C9 /* UIKit.framework */,
 				1D17B1D619B7081A007128C9 /* XCTest.framework */,
-				A6C9B7E8C3FA46668BA7E447 /* libPods.a */,
+				7B73FC04E9C84F0076335EB8 /* libPods-CircleMenuDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,11 +113,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F29EF547E3AC5AD09F92A081 /* Pods */ = {
+		697C4F5AC4141A710EB409E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D61E3D2CD1A6464B4C50F697 /* Pods.debug.xcconfig */,
-				1ED3C349910B3862AE5887DF /* Pods.release.xcconfig */,
+				54215B4CD90D1FE295D52846 /* Pods-CircleMenuDemo.debug.xcconfig */,
+				A406B9A800FE098736D439E0 /* Pods-CircleMenuDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -129,11 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D17B1E619B7081A007128C9 /* Build configuration list for PBXNativeTarget "CircleMenuDemo" */;
 			buildPhases = (
-				46F0B3C444DA47338C8D8B61 /* Check Pods Manifest.lock */,
+				470D7543F7D3DDBEA40B4080 /* [CP] Check Pods Manifest.lock */,
 				1D17B1AD19B7081A007128C9 /* Sources */,
 				1D17B1AE19B7081A007128C9 /* Frameworks */,
 				1D17B1AF19B7081A007128C9 /* Resources */,
-				461814A9BBA942359A58520C /* Copy Pods Resources */,
+				6FC7A2EC9EBD0E7091B21CD9 /* [CP] Embed Pods Frameworks */,
+				3BB5E65C05395F39EFD18B9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -150,8 +151,13 @@
 		1D17B1A919B7081A007128C9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Christian Klaproth";
+				TargetAttributes = {
+					1D17B1B019B7081A007128C9 = {
+						DevelopmentTeam = 9Y7TGLZSB3;
+					};
+				};
 			};
 			buildConfigurationList = 1D17B1AC19B7081A007128C9 /* Build configuration list for PBXProject "CircleMenuDemo" */;
 			compatibilityVersion = "Xcode 6.3";
@@ -186,34 +192,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		461814A9BBA942359A58520C /* Copy Pods Resources */ = {
+		3BB5E65C05395F39EFD18B9F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleMenuDemo/Pods-CircleMenuDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		46F0B3C444DA47338C8D8B61 /* Check Pods Manifest.lock */ = {
+		470D7543F7D3DDBEA40B4080 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6FC7A2EC9EBD0E7091B21CD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircleMenuDemo/Pods-CircleMenuDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -264,14 +285,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -304,13 +330,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -326,14 +357,16 @@
 		};
 		1D17B1E719B7081A007128C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D61E3D2CD1A6464B4C50F697 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 54215B4CD90D1FE295D52846 /* Pods-CircleMenuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9Y7TGLZSB3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CircleMenuDemo/CircleMenuDemo-Prefix.pch";
 				INFOPLIST_FILE = "CircleMenuDemo/CircleMenuDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cm-works.ios.CircleMenuDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -343,14 +376,16 @@
 		};
 		1D17B1E819B7081A007128C9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ED3C349910B3862AE5887DF /* Pods.release.xcconfig */;
+			baseConfigurationReference = A406B9A800FE098736D439E0 /* Pods-CircleMenuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9Y7TGLZSB3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CircleMenuDemo/CircleMenuDemo-Prefix.pch";
 				INFOPLIST_FILE = "CircleMenuDemo/CircleMenuDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.cm-works.ios.CircleMenuDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
